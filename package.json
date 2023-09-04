@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "@gonetone/get-youtube-id-by-url": "^1.0.0",
+    "axios": "^1.5.0",
+    "body-parser": "^1.20.2",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "googleapis": "^126.0.1",
+    "moment": "^2.29.4",
+    "sqlite3": "^5.1.6",
+    "usetube": "^2.2.7",
+    "youtube-transcript": "^1.0.6",
+    "ytdl-core": "^4.11.5"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "server",
+  "version": "1.0.0",
+  "main": "main.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
