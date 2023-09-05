@@ -16,9 +16,10 @@ function updateChannelinfo() {
       let olddata = await db.getValue("channelss");
       olddata = JSON.parse(olddata);
 
-      olddata.forEach((element) => {
-        savechannelinfo(element);
-      });
+      olddata &&
+        olddata.forEach((element) => {
+          savechannelinfo(element);
+        });
       console.log("channels updated");
     } catch (error) {
       console.log(error);

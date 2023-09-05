@@ -3,7 +3,7 @@ const path = require('path')
 
 class localDatabase {
     constructor(tableName) {
-        this.db = new sqlite3.Database('D:/vs code/ytdownloader/server/localDatabase.db');
+        this.db = new sqlite3.Database("./localDatabase.db");
         this.tableName = tableName;
         this.createTable();
     }
